@@ -8,7 +8,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
  }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #485658;
+	color: #0;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -19,12 +19,12 @@ h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 h5 { font-size: 17px; line-height: 24px; }
 h6 { font-size: 14px; line-height: 21px; }
 
-a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+a, a:visited { color: #939393; text-decoration: underline; outline: 0; }
 	a:hover, a:focus { color: #000; }
 	p a, p a:visited { line-height: inherit; }
 
 p{
-	color: #717F73;
+	color: #939393;
   font-size: 20px;
   font-weight: 300;
 	margin: 0 0 20px 0;
@@ -62,6 +62,9 @@ header{
 	text-align: center;
 }
 
+header{
+	margin-bottom: 75px;
+}
 
 nav {
 	position: fixed-scroll;
@@ -94,40 +97,98 @@ nav ul li a:focus {
 .top-hero{
 	text-align: center;
 	padding-top: 250px;
-  padding-left: 50px;
-  padding-right: 50px;
+  	padding-left: 50px;
+  	padding-right: 50px;
 }
 
 .pad{
-	padding-bottom: 50px;
+	padding-bottom: 75px;
+}
+
+.center{
+	text-align: center;
 }
 
 .logo-border{
 	border: 1px solid #D7E0E0;
+	border-radius: 4px;
 	padding: 75px;
 }
 
 .logo-border-small{
 	border: 1px solid #D7E0E0;
+	border-radius: 4px;
 	padding: 40px;
 }
 
-.color-palette{
-	height: 150px;
-	width: 100%;
+.misuse-border{
+	border: 1px solid #D7E0E0;
+	border-radius: 4px;
+	padding: 10px;
 }
+
+.color-palette{
+	height: 160px;
+	width: 160px;
+	border-radius: 100px;
+}
+
+/*Free Code Camp Colors*/
 
 .dark-green{
 	background-color: #006400;
 }
 
+.green{
+	background-color: #45CB85;
+}
+
+.yellow{
+	background-color: #FFD844;
+}
+
+.orange{
+	background-color: #FA8D0F;
+}
+
+.blue{
+	background-color: #3949AB;
+}
+
+.light-blue{
+	background-color: #59C6F2;
+}
+
+.red{
+	background-color: #D65B45;
+}
+
+.pink{
+	background-color: #F06292;
+}
+
+.purple{
+	background-color: #BA68C8;
+}
+
+.brown{
+	background-color: #A4755F;
+}
+
+.grey{
+	background-color: #E0E0E0;
+}
+
+.dark-grey{
+	background-color: #939393;
+}
+
+.black{
+	background-color: #000000;
+}
+
 .white{
 	background-color: #FFFFFF;
-  border: 1px solid #D7E0E0;
+    border: 1px solid #D7E0E0;
 }
 
-
-
-.palette-pad p{
-	margin: 0px;
-}
