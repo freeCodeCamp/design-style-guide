@@ -73,6 +73,7 @@ nav {
 
 nav ul {
 	float: left;  
+	margin-bottom: 75px;
 }
 
 nav ul li {
@@ -113,6 +114,12 @@ nav ul li a:focus {
 	border: 1px solid #D7E0E0;
 	border-radius: 4px;
 	padding: 75px;
+}
+
+.logo-border-glyph{
+	border: 1px solid #D7E0E0;
+	border-radius: 4px;
+	padding: 60px;
 }
 
 .logo-border-small{
