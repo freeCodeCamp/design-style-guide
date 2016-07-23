@@ -147,7 +147,7 @@ nav ul li a:focus {
 }
 
 .green{
-	background-color: #45CB85;
+	background-color: #007E00;
 }
 
 .yellow{
@@ -155,7 +155,11 @@ nav ul li a:focus {
 }
 
 .orange{
-	background-color: #FA8D0F;
+	background-color: #FF9C2A;
+}
+
+.light-orange{
+	background-color: #FFAD25;
 }
 
 .blue{
@@ -163,11 +167,15 @@ nav ul li a:focus {
 }
 
 .light-blue{
-	background-color: #59C6F2;
+	background-color: #2DB9FF;
 }
 
 .red{
-	background-color: #D65B45;
+	background-color: #FF4025;
+}
+
+.light-red{
+	background-color: #FF6D58;
 }
 
 .pink{
@@ -191,7 +199,7 @@ nav ul li a:focus {
 }
 
 .black{
-	background-color: #000000;
+	background-color: #2A2A2A;
 }
 
 .white{
