@@ -45,8 +45,7 @@ header{
   height: 500px;
   width: 100%;
   position: relative;
-  background: linear-gradient(#006400, #006400);
-  background-image: linear-gradient(rgb(0, 100, 0), rgb(3, 95, 29));
+  background:green;
   background-position-x: initial;
   background-position-y: initial;
   background-size: initial;
