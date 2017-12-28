@@ -206,3 +206,9 @@ nav ul li a:focus {
   background-color: #FFFFFF;
     border: 1px solid #D7E0E0;
 }
+
+/* Adding a new secondary color #555555 (Davy's Grey). It is used by map-block-time(timestamp) of beta.freecodecamp.org - By @vkWeb */
+
+.davys-grey{
+background-color: #555555;
+}
