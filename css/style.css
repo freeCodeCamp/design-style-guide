@@ -194,5 +194,9 @@ nav ul li a:focus {
 
 .white{
   background-color: #FFFFFF;
-    border: 1px solid #D7E0E0;
+  border: 1px solid #D7E0E0;
+}
+
+.davys-grey{
+  background-color: #555555;
 }
