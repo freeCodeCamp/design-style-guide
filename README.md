@@ -1,2 +1,3 @@
-# fcc-style-guide
-Style guide for freeCodeCamp
+# Design Style Guide
+
+Style guide for freeCodeCamp.org's Design System
