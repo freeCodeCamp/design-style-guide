@@ -5,12 +5,15 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   vertical-align: baseline; }
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block; }
- }
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: #0;
 }
-
+html{
+  background-color:#0a0a2e;
+  color: white;
+}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
 h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
@@ -19,12 +22,12 @@ h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 h5 { font-size: 17px; line-height: 24px; }
 h6 { font-size: 14px; line-height: 21px; }
 
-a, a:visited { color: #939393; text-decoration: underline; outline: 0; }
-  a:hover, a:focus { color: #000; }
+a, a:visited { color:#d4d4da; text-decoration: underline; outline: 0; }
+  a:hover, a:focus { color: white; text-decoration: none;}
   p a, p a:visited { line-height: inherit; }
 
 p{
-  color: #939393;
+  color:#d4d4da;
   font-size: 20px;
   font-weight: 300;
   margin: 0 0 20px 0;
@@ -45,7 +48,6 @@ header{
   height: 500px;
   width: 100%;
   position: relative;
-  background: darkgreen;
 }
 
 .center{
@@ -75,14 +77,14 @@ nav ul li a,
 nav ul li a:visited,
 nav ul li a:active {
   font-size: 20px;
-  color: #555;
+  color: #d4d4da;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-  color: #222;
+  color: white;
 }
 
 .top-hero{
@@ -199,4 +201,27 @@ nav ul li a:focus {
 
 .davys-grey{
   background-color: #555555;
+}
+
+
+.primary-color{background-color: #FFFFFF;}
+.secondary-color{background-color:#f5f6f7;}
+.tertiary-color{background-color:#e8e8eb;}
+.quaternary-color{background-color:#d4d4da;}
+.quaternary-background{background-color:#323251;}
+.tertiary-background{background-color:#292948;}
+.secondary-background{background-color:#1e2040;}
+.primary-background{background-color:#0a0a2e;  border: 1px solid white;}
+
+.border{
+  border: 1px solid white;
+
+}
+
+#color-pair .color-palette{
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 10px;
 }

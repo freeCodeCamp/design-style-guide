@@ -84,18 +84,20 @@
       <a href="https://www.freecodecamp.org/"><img src="img/freeCodeCamp.svg"></a>
     </div>
   </header>
-
+<hr>
   <div class="container">
 
     <div class="three columns sidebar">
       <nav>
         <ul>
-          <li><a href="#logo">LOGO</a></li>
-          <li><a href="#logo-colors">LOGO COLORS</a></li>
-          <li><a href="#typography">TYPOGRAPHY</a></li>
-          <li><a href="#brand-colors">BRAND COLORS</a></li>
-          <li><a href="#spacing">SPACING</a></li>
-          <li><a href="#misuse">LOGO MISUSE</a></li>
+          <li><a href="#vision"</a></li>
+          <li><a href="#logo">Logo</a></li>
+          <li><a href="#logo-colors">Logo Colors</a></li>
+          <li><a href="#typography">Typography</a></li>
+          <li><a href="#layout-colors">Layout Colors</a></li>
+          <li><a href="#brand-colors">Brand Colors</a></li>
+          <li><a href="#spacing">Spacing</a></li>
+          <li><a href="#misuse">Logo Misuse</a></li>
         </ul>
       </nav>
     </div>
@@ -108,7 +110,7 @@
       </div>
       <div class="row clearfix pad">
         <div class="eight columns alpha">
-          <div class="logo-border dark-green">
+          <div class="logo-border ">
             <img src="img/freeCodeCamp.png">
           </div>
           <div class="palette-pad">
@@ -122,7 +124,7 @@
           </div>
         </div>
         <div class="four columns omega">
-          <div class="logo-border-glyph dark-green">
+          <div class="logo-border-glyph ">
             <img src="img/glyph.png">
           </div>
           <div class="palette-pad">
@@ -143,7 +145,7 @@
 
         <div class="row clearfix">
           <div class="six columns alpha">
-            <div class="logo-border-small dark-green">
+            <div class="logo-border-small ">
               <img src="img/freeCodeCamp.png">
             </div>
             <div class="palette-pad">
@@ -182,6 +184,70 @@
         <p>freeCodeCamp uses <a href="https://www.google.com/fonts/specimen/Ubuntu+Mono">Ubuntu Mono</a> for our code editor.</p>
         <span class="small"><a href="downloads/ubuntu_mono.zip">Download Ubuntu Mono</a></span>
       </div>
+      <div class="doc-section pad" id="layout-colors">
+        <h2>LAYOUT COLORS</h2>
+        <p>To achive a flexible dark and light theme, freeCodeCamp's layouts
+          consist of four color pairs with various contrast levels.</p>
+        <p>The contrast difference between two colors in a pair represent their visual hierarchy</p>
+        <p>For instance the pair with the highest contrast difference is reserved for primary background and content</p>
+        <p>This system allows flawless theme change by switching the colors in each pair and preseving their contrast and visual hierarchy.</p>
+
+          <div class="row clearfix center" id="color-pair">
+            <h3>Color pairs</h3>
+            <div class="three columns alpha border">
+              <div class="color-palette primary-color"></div>
+              <div class="palette-pad">
+                <h4>gray 00</h4>
+                <p>#ffffff</p>
+
+                <div class="color-palette primary-background"></div>
+                <div class="palette-pad">
+                  <h4>gray 90</h4>
+                  <p>#0a0a2e</p>
+                </div>
+              </div>
+            </div>
+            <div class="three columns alpha border">
+              <div class="color-palette secondary-color"></div>
+              <div class="palette-pad">
+                <h4>gray 05</h4>
+                <p>#f5f6f7</p>
+
+                <div class="color-palette secondary-background"></div>
+                <div class="palette-pad">
+                  <h4>gray 85</h4>
+                  <p>#1e2040</p>
+                </div>
+              </div>
+            </div>
+            <div class="three columns alpha border">
+              <div class="color-palette tertiary-color"></div>
+              <div class="palette-pad">
+                <h4>gray 10</h4>
+                <p>#e8e8eb</p>
+
+                <div class="color-palette tertiary-background"></div>
+                <div class="palette-pad">
+                  <h4>gray 80</h4>
+                  <p>#292948</p>
+                </div>
+              </div>
+            </div>
+            <div class="three columns alpha border">
+              <div class="color-palette quaternary-color"></div>
+              <div class="palette-pad">
+                <h4>gray 15</h4>
+                <p>#d4d4da</p>
+
+                <div class="color-palette quaternary-background"></div>
+                <div class="palette-pad">
+                  <h4>gray 75</h4>
+                  <p>#323251</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
 
       <div class="doc-section pad" id="brand-colors">
         <h2>BRAND COLORS</h2>
@@ -190,7 +256,7 @@
         <div class="row clearfix center">
           <h3>Primary Colors</h3>
           <div class="three columns alpha">
-            <div class="color-palette dark-green"></div>
+            <div class="color-palette dark-green "></div>
             <div class="palette-pad">
               <h4>Dark Green</h4>
               <p>#006400</p>
@@ -252,73 +318,6 @@
             </div>
           </div>
         </div>
-
-        <div class="row clearfix center">
-          <div class="three columns alpha">
-            <div class="color-palette purple"></div>
-            <div class="palette-pad">
-              <h4>Purple</h4>
-              <p>#BA68C8</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette yellow"></div>
-            <div class="palette-pad">
-              <h4>Yellow</h4>
-              <p>#FFEE18</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette brown"></div>
-            <div class="palette-pad">
-              <h4>Brown</h4>
-              <p>#A4755F</p>
-            </div>
-          </div>
-          <div class="three columns omega">
-            <div class="color-palette grey"></div>
-            <div class="palette-pad">
-              <h4>Grey</h4>
-              <p>#E0E0E0</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row clearfix center">
-          <div class="three columns alpha">
-            <div class="color-palette dark-grey"></div>
-            <div class="palette-pad">
-              <h4>Dark Grey</h4>
-              <p>#939393</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette black"></div>
-            <div class="palette-pad">
-              <h4>Black</h4>
-              <p>#2A2A2A</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette white"></div>
-            <div class="palette-pad">
-              <h4>White</h4>
-              <p>#FFFFFF</p>
-            </div>
-          </div>
-          <div class="three columns omega">
-            <div class="color-palette davys-grey"></div>
-            <div class="palette-pad">
-              <h4>Davy's Grey</h4>
-              <p>#555555</p>
-            </div>
-          </div>
-
-          <div class="three columns omega">
-            <br>
-          </div>
-        </div>
-
       </div>
 
       <div class="doc-section pad" id="spacing">
@@ -344,19 +343,19 @@
         </div>
         <div class="row clearfix">
           <div class="four columns alpha">
-            <div class="misuse-border dark-green">
+            <div class="misuse-border ">
               <img src="img/misuse-1.png">
             </div>
             <h6 class="center">Do not rotate or distort logo</h6>
           </div>
           <div class="four columns">
-            <div class="misuse-border dark-green">
+            <div class="misuse-border ">
               <img src="img/misuse-2.png">
             </div>
             <h6 class="center">Do not reassign colors</h6>
           </div>
           <div class="four columns omega">
-            <div class="misuse-border dark-green">
+            <div class="misuse-border ">
               <img src="img/misuse-3.png">
             </div>
             <h6 class="center">Do not rearrange logo elements</h6>
@@ -364,19 +363,19 @@
         </div>
         <div class="row clearfix">
           <div class="four columns alpha">
-            <div class="misuse-border dark-green">
+            <div class="misuse-border ">
               <img src="img/misuse-4.png">
             </div>
             <h6 class="center">Do not scale elements seperately</h6>
           </div>
           <div class="four columns">
-            <div class="misuse-border dark-green">
+            <div class="misuse-border ">
               <img src="img/misuse-5.png">
             </div>
             <h6 class="center">Do not enclose in shapes</h6>
           </div>
           <div class="four columns omega">
-            <div class="misuse-border dark-green">
+            <div class="misuse-border ">
               <img src="img/misuse-6.png">
             </div>
             <h6 class="center">Do not add elements to logo</h6>
