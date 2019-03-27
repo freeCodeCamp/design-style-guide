@@ -1,196 +1,408 @@
 <!DOCTYPE html>
-<html >
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token" />
+    <title>freeCodeCamp - Style Guide</title>
+    <link href="https://freecodecamp.org" rel="canonical" />
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token" />
+    <meta
+      content="learn to code, learn to program, learn programming, learn javascript, learn coding, code, coding, programming, software engineer, software developer, mean stack, web development, development, engineering, learn node.js, learn angular.js, learn express.js, learn mongoDB, coding bootcamp, javascript, open source"
+      name="keywords"
+    />
+    <meta content="Learn to code and help nonprofits" property="og:title" />
+    <meta content="freeCodeCamp" property="og:site_name" />
+    <meta content="on" name="twitter:widgets:csp" />
+    <meta content="d0bc047a482c03c24f1168004c2a216a" name="p:domain_verify" />
+    <meta content="https://www.freecodecamp.org" property="og:url" />
+    <meta
+      content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today."
+      property="og:description"
+    />
+    <meta
+      content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg"
+      property="og:image"
+    />
+    <meta content="article" property="og:type" />
+    <meta
+      content="https://www.facebook.com/freecodecamp"
+      property="article:publisher"
+    />
+    <meta content="Responsive" property="article:section" />
+    <link href="https://plus.google.com/+Freecodecamp" rel="publisher" />
+    <link href="https://plus.google.com/+Freecodecamp" rel="author" />
+    <meta
+      content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today."
+      name="description"
+    />
+    <meta content="@freecodecamp" name="twitter:creator" />
+    <meta content="https://www.freecodecamp.org" name="twitter:url" />
+    <meta content="@freecodecamp" name="twitter:site" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta
+      content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg"
+      name="twitter:image:src"
+    />
+    <meta content="Learn to code and help nonprofits" name="twitter:title" />
+    <meta
+      content="We're an open source community of busy people who learn to code and build projects for nonprofits. Build your full stack web development portfolio today."
+      name="twitter:description"
+    />
+    <meta content="a40ee5d5dba3bb091ad783ebd2b1383f" name="p:domain_verify" />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <meta content="/" name="msapplication-TileImage" />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-144x144.png"
+      rel="android-chrome"
+      sizes="144x144"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-192x192.png"
+      rel="android-chrome"
+      sizes="192x192"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-36x36.png"
+      rel="android-chrome"
+      sizes="36x36"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-48x48.png"
+      rel="android-chrome"
+      sizes="48x48"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-72x72.png"
+      rel="android-chrome"
+      sizes="72x72"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-96x96.png"
+      rel="android-chrome"
+      sizes="96x96"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-manifest.json"
+      rel="android-chrome-manifest"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-114x114.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-120x120.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-144x144.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-152x152.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-180x180.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-57x57.png"
+      rel="apple-touch-icon"
+      sizes="57x57"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-60x60.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-72x72.png"
+      rel="apple-touch-icon"
+      sizes="72x72"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-76x76.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-precomposed.png"
+      rel="apple-touch-icon-precomposed"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon.png"
+      rel="apple-touch-icon"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-16x16.png"
+      rel="favicon"
+      sizes="16x16"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png"
+      rel="favicon"
+      sizes="32x32"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-96x96.png"
+      rel="favicon"
+      sizes="96x96"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-144x144.png"
+      rel="mstile"
+      sizes="144x144"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-150x150.png"
+      rel="mstile"
+      sizes="150x150"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x310.png"
+      rel="mstile"
+      sizes="310x310"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x150.png"
+      rel="mstile"
+      sizes="310x150"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-70x70.png"
+      rel="mstile"
+      sizes="70x70"
+    />
+    <link
+      href="https://s3.amazonaws.com/freecodecamp/favicons/favicon.ico"
+      rel="favicon"
+    />
+    <link
+      href="//s3.amazonaws.com/freecodecamp/favicons/favicon.ico"
+      rel="shortcut icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css"
+    />
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-<head>
-  <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token">
-  <title>freeCodeCamp - Style Guide</title>
-  <link href="https://freecodecamp.org" rel="canonical">
-  <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="X5tHeKjV-jMLyp4VMoUhW9PAYaOjtPslV250" name="csrf-token">
-  <meta content="learn to code, learn to program, learn programming, learn javascript, learn coding, code, coding, programming, software engineer, software developer, mean stack, web development, development, engineering, learn node.js, learn angular.js, learn express.js, learn mongoDB, coding bootcamp, javascript, open source" name="keywords">
-  <meta content="Learn to code and help nonprofits" property="og:title">
-  <meta content="freeCodeCamp" property="og:site_name">
-  <meta content="on" name="twitter:widgets:csp">
-  <meta content="d0bc047a482c03c24f1168004c2a216a" name="p:domain_verify">
-  <meta content="https://www.freecodecamp.org" property="og:url">
-  <meta content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today." property="og:description">
-  <meta content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" property="og:image">
-  <meta content="article" property="og:type">
-  <meta content="https://www.facebook.com/freecodecamp" property="article:publisher">
-  <meta content="Responsive" property="article:section">
-  <link href="https://plus.google.com/+Freecodecamp" rel="publisher">
-  <link href="https://plus.google.com/+Freecodecamp" rel="author">
-  <meta content="Learn to code and build projects for nonprofits. Build your full stack web development portfolio today." name="description">
-  <meta content="@freecodecamp" name="twitter:creator">
-  <meta content="https://www.freecodecamp.org" name="twitter:url">
-  <meta content="@freecodecamp" name="twitter:site">
-  <meta content="summary_large_image" name="twitter:card">
-  <meta content="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" name="twitter:image:src">
-  <meta content="Learn to code and help nonprofits" name="twitter:title">
-  <meta content="We're an open source community of busy people who learn to code and build projects for nonprofits. Build your full stack web development portfolio today." name="twitter:description">
-  <meta content="a40ee5d5dba3bb091ad783ebd2b1383f" name="p:domain_verify">
-  <meta content="#FFFFFF" name="msapplication-TileColor">
-  <meta content="/" name="msapplication-TileImage">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-144x144.png" rel="android-chrome" sizes="144x144">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-192x192.png" rel="android-chrome" sizes="192x192">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-36x36.png" rel="android-chrome" sizes="36x36">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-48x48.png" rel="android-chrome" sizes="48x48">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-72x72.png" rel="android-chrome" sizes="72x72">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-96x96.png" rel="android-chrome" sizes="96x96">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/android-chrome-manifest.json" rel="android-chrome-manifest">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon.png" rel="apple-touch-icon">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-16x16.png" rel="favicon" sizes="16x16">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png" rel="favicon" sizes="32x32">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon-96x96.png" rel="favicon" sizes="96x96">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-144x144.png" rel="mstile" sizes="144x144">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-150x150.png" rel="mstile" sizes="150x150">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x310.png" rel="mstile" sizes="310x310">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-310x150.png" rel="mstile" sizes="310x150">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/mstile-70x70.png" rel="mstile" sizes="70x70">
-  <link href="https://s3.amazonaws.com/freecodecamp/favicons/favicon.ico" rel="favicon">
-  <link href="//s3.amazonaws.com/freecodecamp/favicons/favicon.ico" rel="shortcut icon">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
-  <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga("create", "UA-55446531-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
 
-      ga('create', 'UA-55446531-1', 'auto');
-      ga('send', 'pageview');
-  </script>
-</head>
-
-<body>
-  <header>
-    <div class="top-hero">
-      <a href="https://www.freecodecamp.org/"><img src="img/freeCodeCamp.svg"></a>
-    </div>
-  </header>
-<hr>
-  <div class="container">
-
-    <div class="three columns sidebar">
-      <nav>
-        <ul>
-          <li><a href="#vision"</a></li>
-          <li><a href="#logo">Logo</a></li>
-          <li><a href="#logo-colors">Logo Colors</a></li>
-          <li><a href="#typography">Typography</a></li>
-          <li><a href="#layout-colors">Layout Colors</a></li>
-          <li><a href="#brand-colors">Brand Colors</a></li>
-          <li><a href="#spacing">Spacing</a></li>
-          <li><a href="#misuse">Logo Misuse</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="twelve columns offset-by-one content">
-
-      <div class="doc-section" id="logo">
-        <h2>LOGO</h2>
-        <p>Our logo appears in two variations.</p>
+  <body>
+    <header>
+      <div class="top-hero">
+        <a href="https://www.freecodecamp.org/"
+          ><img src="img/freeCodeCamp.svg"
+        /></a>
       </div>
-      <div class="row clearfix pad">
-        <div class="eight columns alpha">
-          <div class="logo-border ">
-            <img src="img/freeCodeCamp.png">
-          </div>
-          <div class="palette-pad">
-            <h4>Primary Logo</h4>
-            <p>Preferred version of the freeCodeCamp logo and should appear on the majority of branded materials.</p>
-            <span class="small">
-              <a href="downloads/freeCodeCamp.png" download>PNG</a> |
-              <a href="downloads/freeCodeCamp.jpg" download>JPEG</a> |
-              <a href="downloads/freeCodeCamp.eps" download>EPS</a>
-            </span>
-          </div>
-        </div>
-        <div class="four columns omega">
-          <div class="logo-border-glyph ">
-            <img src="img/glyph.png">
-          </div>
-          <div class="palette-pad">
-            <h4>Glyph</h4>
-            <p>Used when production restrictions do not allow the use of the full logo.</p>
-            <span class="small">
-              <a href="downloads/glyph.png" download>PNG</a> |
-              <a href="downloads/glyph.jpg" download>JPEG</a> |
-              <a href="downloads/glyph.eps" download>EPS</a>
-            </span>
-          </div>
-        </div>
+    </header>
+    <hr />
+    <div class="container">
+      <div class="three columns sidebar">
+        <nav>
+          <ul>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#logo">Logo</a></li>
+            <li><a href="#logo-colors">Logo Colors</a></li>
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#layout-colors">Layout Colors</a></li>
+            <li><a href="#brand-colors">Accent Colors</a></li>
+            <li><a href="#spacing">Spacing</a></li>
+            <li><a href="#misuse">Logo Misuse</a></li>
+          </ul>
+        </nav>
       </div>
 
-      <div class="doc-section pad" id="logo-colors">
-        <h2>LOGO COLORS</h2>
-        <p>The freeCodeCamp logo is designed for use primarily with on a dark green background. For instances in which the full color logo is not practical, the colors and color combinations shown here are approved alternatives.</p>
-
-        <div class="row clearfix">
-          <div class="six columns alpha">
-            <div class="logo-border-small ">
-              <img src="img/freeCodeCamp.png">
+      <div class="twelve columns offset-by-one content">
+        <div class="doc-section pad" id="vision">
+          <div class="row clearfix">
+            <h2>Vision</h2>
+            <p>
+              To improve usability and replicate the experience of real world
+              coding interfaces such as command lines and code editors,
+              freecodecamp uses monochromatic layouts with large primarily
+              monospace font. Here are some examples:
+            </p>
+            <div class="twelve columns alpha">
+              <div class=""><img src="img/screen-shot-1.png" /></div><br/>
+            <div class="twelve columns alpha">
+              <div class=""><img src="img/screen-shot-2.png" /></div><br/>
             </div>
+            <div class="twelve columns alpha pad">
+              <div class=""><img src="img/screen-shot-3.png" /></div>
+            </div>
+          </div>
+        </div>
+        <div class="doc-section" id="logo">
+          <h2>Logo</h2>
+          <p>Our logo appears in two variations.</p>
+        </div>
+        <div class="row clearfix pad">
+          <div class="eight columns alpha">
+            <div class="logo-border "><img src="img/freeCodeCamp.svg" /></div>
             <div class="palette-pad">
-              <h4>Primary Color</h4>
+              <h4>Primary Logo</h4>
+              <p>
+                Preferred version of the freeCodeCamp logo and should appear on
+                the majority of branded materials.
+              </p>
               <span class="small">
                 <a href="downloads/freeCodeCamp.png" download>PNG</a> |
-              <a href="downloads/freeCodeCamp.jpg" download>JPEG</a> |
-              <a href="downloads/freeCodeCamp.eps" download>EPS</a>
+                <a href="downloads/freeCodeCamp.jpg" download>JPEG</a> |
+                <a href="downloads/freeCodeCamp.svg" download>SVG</a>
               </span>
             </div>
           </div>
-          <div class="six columns omega">
-            <div class="logo-border-small nextech-orange">
-              <img src="img/freeCodeCamp-alternative.png">
-            </div>
+          <div class="four columns omega">
+            <div class="logo-border-glyph "><img src="img/glyph.svg" /></div>
             <div class="palette-pad">
-              <h4>Alternative Color</h4>
+              <h4>Glyph</h4>
+              <p>
+                Used when production restrictions do not allow the use of the
+                full logo.
+              </p>
               <span class="small">
-                <a href="downloads/freeCodeCamp-alternative.png" download>PNG</a> |
-                <a href="downloads/freeCodeCamp-alternative.jpg" download>JPEG</a> |
-                <a href="downloads/freeCodeCamp-alternative.eps" download>EPS</a>
+                <a href="downloads/glyph.png" download>PNG</a> |
+                <a href="downloads/glyph.jpg" download>JPEG</a> |
+                <a href="downloads/glyph.svg" download>SVG</a>
               </span>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="doc-section pad" id="typography">
-        <h2>TYPOGRAPHY</h2>
-        <p>freeCodeCamp uses one consistent open-source type, <a href="https://www.google.com/fonts/specimen/Lato">Lato</a>, with various font weights to ensure readability and typographical hierarchy.</p>
-        <span class="small"><a href="downloads/lato.zip">Download Lato</a></span>
-        <br></br>
-        <p>freeCodeCamp uses <a href="https://www.dafont.com/saxmono.font">SaxMono</a>, for our logo.</p>
-        <span class="small"><a href="downloads/saxmono.zip">Download SaxMono</a></span>
-        <br></br>
-        <p>freeCodeCamp uses <a href="https://www.google.com/fonts/specimen/Ubuntu+Mono">Ubuntu Mono</a> for our code editor.</p>
-        <span class="small"><a href="downloads/ubuntu_mono.zip">Download Ubuntu Mono</a></span>
-      </div>
-      <div class="doc-section pad" id="layout-colors">
-        <h2>LAYOUT COLORS</h2>
-        <p>To achive a flexible dark and light theme, freeCodeCamp's layouts
-          consist of four color pairs with various contrast levels.</p>
-        <p>The contrast difference between two colors in a pair represent their visual hierarchy</p>
-        <p>For instance the pair with the highest contrast difference is reserved for primary background and content</p>
-        <p>This system allows flawless theme change by switching the colors in each pair and preseving their contrast and visual hierarchy.</p>
+        <div class="doc-section pad" id="logo-colors">
+          <h2>Logo Colors</h2>
+          <p>
+            The freeCodeCamp logo is designed for use primarily on dark
+            backgrounds. For instances in which the full color logo is not
+            practical, the following color combinations are approved
+            alternatives.
+          </p>
+
+          <div class="row clearfix">
+            <div class="eight columns alpha ">
+              <div class="logo-border white"><img src="img/freeCodeCamp-alternative.svg" /></div>
+              <div class="palette-pad">
+                <h4>Alernative Logo</h4>
+                <span class="small">
+                  <a href="downloads/freeCodeCamp.png" download>PNG</a> |
+                  <a href="downloads/freeCodeCamp.jpg" download>JPEG</a> |
+                  <a href="downloads/freeCodeCamp.svg" download>SVG</a>
+                </span>
+              </div>
+            </div>
+            <div class="four columns omega">
+              <div class="logo-border-glyph white"><img src="img/glyph-alternative.svg" /></div>
+              <div class="palette-pad">
+                <h4>Alternative Glyph</h4>
+                <span class="small">
+                  <a href="downloads/glyph.png" download>PNG</a> |
+                  <a href="downloads/glyph.jpg" download>JPEG</a> |
+                  <a href="downloads/glyph.svg" download>SVG</a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="doc-section pad" id="typography">
+          <h2>Typography</h2>
+          <p>freeCodeCamp uses the following consistent types with various font weights to ensure readability and typographical hierarchy:</p>
+          <br />
+          <p>
+            <a href="https://www.fontsquirrel.com/fonts/hack">Hack</a> is used
+            as a primary monospace font.
+          </p>
+          <span class="small"
+            ><a href="downloads/hack.zip">Download Hack</a></span
+          >
+          <br />
+          <br />
+          <p>
+            <a href="https://www.google.com/fonts/specimen/Lato">Lato</a> is
+            used for long text sections.
+          </p>
+
+          <span class="small"
+            ><a href="downloads/lato.zip">Download Lato</a></span
+          >
+          <br />
+          <br />
+          <p>
+            freeCodeCamp uses
+            <a href="https://www.dafont.com/saxmono.font">SaxMono</a>, for our
+            logo.
+          </p>
+          <span class="small"
+            ><a href="downloads/saxmono.zip">Download SaxMono</a></span
+          >
+          <br />
+          <br />
+          <p>
+            freeCodeCamp uses
+            <a href="https://www.onlinewebfonts.com/download/a6ffc5d72a96b65159e710ea6d258ba4"
+              >Menlo</a
+            >
+            for our code editor.
+          </p>
+          <span class="small"
+            ><a href="downloads/menlo.zip">Download Melno</a></span
+          >
+        </div>
+        <div class="doc-section pad" id="layout-colors">
+          <h2>Layout Colors</h2>
+          <p>
+            To achive a flexible dark and light theme, freeCodeCamp's layouts
+            consist of four color pairs with various contrast levels.
+          </p>
+          <p>
+            The contrast difference between two colors in a pair represent their
+            visual hierarchy
+          </p>
+          <p>
+            For instance the pair with the highest contrast difference is
+            reserved for primary background and content
+          </p>
+          <p>
+            This system allows flawless theme change by switching the colors in
+            each pair and preseving their contrast and visual hierarchy.
+          </p>
 
           <div class="row clearfix center" id="color-pair">
             <h3>Color pairs</h3>
@@ -247,172 +459,181 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="doc-section pad" id="brand-colors">
+          <h2>Accent Colors</h2>
+          <p>
+            freeCodecamp accent colors consist of two sets of four colors.
+            The primary colors are used on dark background and the seconday
+            colors are used on light background.
+          </p>
+          <div class="row clearfix center">
+            <h3>Primary Colors</h3>
+            <div class="three columns alpha">
+              <div class="color-palette green"></div>
+              <div class="palette-pad">
+                <h4>Green</h4>
+                <p>#007E00</p>
+              </div>
+            </div>
+            <div class="three columns">
+              <div class="color-palette light-orange"></div>
+              <div class="palette-pad">
+                <h4>Light Orange</h4>
+                <p>#FFAD25</p>
+              </div>
+            </div>
+            <div class="three columns">
+              <div class="color-palette light-red"></div>
+              <div class="palette-pad">
+                <h4>Light Red</h4>
+                <p>#FF6D58</p>
+              </div>
+            </div>
+            <div class="three columns omega">
+              <div class="color-palette light-blue"></div>
+              <div class="palette-pad">
+                <h4>Light-Blue</h4>
+                <p>#2DB9FF</p>
+              </div>
+            </div>
+          </div>
+          <hr/>
+          <div class="row clearfix center">
+            <h3>Seconday Colors</h3>
+            <div class="three columns alpha">
+              <div class="color-palette dark-green "></div>
+              <div class="palette-pad">
+                <h4>Dark Green</h4>
+                <p>#006400</p>
+              </div>
+            </div>
+            <div class="three columns">
+              <div class="color-palette orange"></div>
+              <div class="palette-pad">
+                <h4>Orange</h4>
+                <p>#FF9C2A</p>
+              </div>
+            </div>
+            <div class="three columns">
+              <div class="color-palette red"></div>
+              <div class="palette-pad">
+                <h4>Red</h4>
+                <p>#FF4025</p>
+              </div>
+            </div>
+            <div class="three columns omega">
+              <div class="color-palette blue"></div>
+              <div class="palette-pad">
+                <h4>Blue</h4>
+                <p>#3949AB</p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <div class="doc-section pad" id="spacing">
+          <div class="row clearfix"><h2>Spacing Considerattion</h2></div>
+          <div class="row clearfix">
+            <div class="eight columns alpha">
+              <p>
+                To maintain the integrity of the freeCodeCamp logo, it is
+                important that one provides adequate space around the logo.
+              </p>
+              <img src="img/fcc-logo-spacing.gif" />
+            </div>
+            <div class="four columns omega">
+              <p>
+                <i
+                  >To ensure enough spacing give 50px or greater padding to each
+                  side.</i
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="doc-section pad" id="misuse">
+          <div class="row clearfix">
+            <h2>Logo Misuse</h2>
+            <p>
+              The consistent application of color plays an extremely important
+              role in the freeCodeCamp identity system.
+            </p>
+            <p>
+              The examples below illustrate a few inappropriate applications of
+              the logo.
+            </p>
+          </div>
+          <div class="row clearfix">
+            <div class="four columns alpha">
+              <div class="misuse-border "><img src="img/misuse-1.png" /></div>
+              <h6 class="center">Do not rotate or distort logo</h6>
+            </div>
+            <div class="four columns">
+              <div class="misuse-border "><img src="img/misuse-2.png" /></div>
+              <h6 class="center">Do not reassign colors</h6>
+            </div>
+            <div class="four columns omega">
+              <div class="misuse-border "><img src="img/misuse-3.png" /></div>
+              <h6 class="center">Do not rearrange logo elements</h6>
+            </div>
+          </div>
+          <div class="row clearfix">
+            <div class="four columns alpha">
+              <div class="misuse-border "><img src="img/misuse-4.png" /></div>
+              <h6 class="center">Do not scale elements seperately</h6>
+            </div>
+            <div class="four columns">
+              <div class="misuse-border "><img src="img/misuse-5.png" /></div>
+              <h6 class="center">Do not enclose in shapes</h6>
+            </div>
+            <div class="four columns omega">
+              <div class="misuse-border "><img src="img/misuse-6.png" /></div>
+              <h6 class="center">Do not add elements to logo</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="doc-section pad">
+          <div class="row clearfix">
+            <h2>Questions</h2>
+            <p>
+              Feel free to reach out to us at
+              <a href="mailto:team@freecodecamp.org">team@freecodecamp.org</a>
+              with anymore questions about the freeCodeCamp style guide.
+            </p>
+          </div>
+        </div>
       </div>
-
-      <div class="doc-section pad" id="brand-colors">
-        <h2>BRAND COLORS</h2>
-        <p>These are the colors that make up the freeCodeCamp color palette. They are approved for use with all freeCodeCamp materials.</p>
-
-        <div class="row clearfix center">
-          <h3>Primary Colors</h3>
-          <div class="three columns alpha">
-            <div class="color-palette dark-green "></div>
-            <div class="palette-pad">
-              <h4>Dark Green</h4>
-              <p>#006400</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette orange"></div>
-            <div class="palette-pad">
-              <h4>Orange</h4>
-              <p>#FF9C2A</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette red"></div>
-            <div class="palette-pad">
-              <h4>Red</h4>
-              <p>#FF4025</p>
-            </div>
-          </div>
-          <div class="three columns omega">
-            <div class="color-palette blue"></div>
-            <div class="palette-pad">
-              <h4>Blue</h4>
-              <p>#3949AB</p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-        <div class="row clearfix center">
-          <h3>Secondary Colors</h3>
-          <div class="three columns alpha">
-            <div class="color-palette green"></div>
-            <div class="palette-pad">
-              <h4>Green</h4>
-              <p>#007E00</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette light-orange"></div>
-            <div class="palette-pad">
-              <h4>Light Orange</h4>
-              <p>#FFAD25</p>
-            </div>
-          </div>
-          <div class="three columns">
-            <div class="color-palette light-red"></div>
-            <div class="palette-pad">
-              <h4>Light Red</h4>
-              <p>#FF6D58</p>
-            </div>
-          </div>
-          <div class="three columns omega">
-            <div class="color-palette light-blue"></div>
-            <div class="palette-pad">
-              <h4>Light-Blue</h4>
-              <p>#2DB9FF</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="doc-section pad" id="spacing">
-        <div class="row clearfix">
-          <h2>SPACING CONSIDERATIONS</h2>
-        </div>
-        <div class="row clearfix">
-          <div class="eight columns alpha">
-            <p>To maintain the integrity of the freeCodeCamp logo, it is important that one provides adequate space around the logo.</p>
-            <img src="img/fcc-logo-spacing.gif">
-          </div>
-          <div class="four columns omega">
-            <p><i>To ensure enough spacing give 50px or greater padding to each side.</i></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="doc-section pad" id="misuse">
-        <div class="row clearfix">
-          <h2>LOGO MISUSE</h2>
-          <p>The consistent application of color plays an extremely important role in the freeCodeCamp identity system.</p>
-          <p>The examples below illustrate a few inappropriate applications of the logo.</p>
-        </div>
-        <div class="row clearfix">
-          <div class="four columns alpha">
-            <div class="misuse-border ">
-              <img src="img/misuse-1.png">
-            </div>
-            <h6 class="center">Do not rotate or distort logo</h6>
-          </div>
-          <div class="four columns">
-            <div class="misuse-border ">
-              <img src="img/misuse-2.png">
-            </div>
-            <h6 class="center">Do not reassign colors</h6>
-          </div>
-          <div class="four columns omega">
-            <div class="misuse-border ">
-              <img src="img/misuse-3.png">
-            </div>
-            <h6 class="center">Do not rearrange logo elements</h6>
-          </div>
-        </div>
-        <div class="row clearfix">
-          <div class="four columns alpha">
-            <div class="misuse-border ">
-              <img src="img/misuse-4.png">
-            </div>
-            <h6 class="center">Do not scale elements seperately</h6>
-          </div>
-          <div class="four columns">
-            <div class="misuse-border ">
-              <img src="img/misuse-5.png">
-            </div>
-            <h6 class="center">Do not enclose in shapes</h6>
-          </div>
-          <div class="four columns omega">
-            <div class="misuse-border ">
-              <img src="img/misuse-6.png">
-            </div>
-            <h6 class="center">Do not add elements to logo</h6>
-          </div>
-        </div>
-      </div>
-
-      <div class="doc-section pad">
-        <div class="row clearfix">
-          <h2>QUESTIONS</h2>
-          <p>Feel free to reach out to us at <a href="mailto:team@freecodecamp.org">team@freecodecamp.org</a> with anymore questions about the freeCodeCamp style guide.</p>
-        </div>
-      </div>
-
     </div>
 
-  </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>
+      $(".hidden-code").click(function(e) {
+        e.preventDefault();
+        $(this)
+          .children(".gist")
+          .slideToggle();
+      });
 
-  <script>
-    $('.hidden-code').click(function(e) {
-      e.preventDefault();
-      $(this).children('.gist').slideToggle();
-    })
-
-    var originalText;
-    $('.example-grid').children().hover(
-      function() {
-        originalText = $(this).text();
-        $(this).html($(this).width()+'px');
-      },
-      function() {
-        $(this).html(originalText);
-      })
-  </script>
-
-</body>
-
+      var originalText;
+      $(".example-grid")
+        .children()
+        .hover(
+          function() {
+            originalText = $(this).text();
+            $(this).html($(this).width() + "px");
+          },
+          function() {
+            $(this).html(originalText);
+          }
+        );
+    </script>
+  </body>
 </html>
