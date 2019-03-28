@@ -15,12 +15,12 @@ html{
   color: white;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-h5 { font-size: 18px; line-height: 24px; }
-h6 { font-size: 18px; line-height: 21px; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; font-family: 'Hack', monospace;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; font-family: 'Hack', monospace;}
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; font-family: 'Hack', monospace;}
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; margin-top: 10px; font-family: 'Hack', monospace;}
+h5 { font-size: 18px; line-height: 24px; font-family: 'Hack', monospace;}
+h6 { font-size: 18px; line-height: 21px; font-family: 'Hack', monospace;}
 
 a, a:visited { color:#d4d4da;
   text-decoration:
@@ -39,7 +39,7 @@ p{
 }
 
 body {
-  font-family: 'Hack', monospace;
+  font-family: 'Lato', sans-serif;
 }
 
 p img { margin: 0; }
@@ -141,71 +141,40 @@ nav ul li a:focus {
 /*Free Code Camp Colors*/
 
 .dark-green{
-  background-color: #006400;
+  background-color: #00471b;
 }
 
 .green{
-  background-color: #007E00;
+  background-color: #acd157;
 }
 
 .yellow{
-  background-color: #FFEE18;
+  background-color: #f1be32;
 }
 
-.orange{
-  background-color: #FF9C2A;
-}
-
-.light-orange{
-  background-color: #FFAD25;
+.dark-yellow{
+  background-color: #4d3800;
 }
 
 .blue{
-  background-color: #3949AB;
+  background-color: #99c9ff;
 }
 
-.light-blue{
-  background-color: #2DB9FF;
+.dark-blue{
+  background-color: #002ead;
 }
 
-.red{
-  background-color: #FF4025;
-}
-
-.light-red{
-  background-color: #FF6D58;
-}
-
-.pink{
-  background-color: #F06292;
-}
 
 .purple{
-  background-color: #BA68C8;
+  background-color: #dbb8ff;
 }
 
-.brown{
-  background-color: #A4755F;
-}
-
-.grey{
-  background-color: #E0E0E0;
-}
-
-.dark-grey{
-  background-color: #939393;
-}
-
-.black{
-  background-color: #2A2A2A;
+.dark-purple{
+  background-color: #5a01a7;
 }
 
 .white{
   background-color: #FFFFFF;
-}
-
-.davys-grey{
-  background-color: #555555;
 }
 
 
@@ -220,7 +189,6 @@ nav ul li a:focus {
 
 .border{
   border: 1px solid white;
-
 }
 
 #color-pair .color-palette{
