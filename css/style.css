@@ -23,10 +23,9 @@ h5 { font-size: 18px; line-height: 24px; font-family: 'Hack', monospace;}
 h6 { font-size: 18px; line-height: 21px; font-family: 'Hack', monospace;}
 
 a, a:visited { color:#d4d4da;
-  text-decoration:
-  underline;
+  text-decoration: underline;
   outline: 0;
-  font-size: 18px;
+  font-size: inherit;
 }
 a:hover, a:focus { color: white; text-decoration: none;}
 p a, p a:visited { line-height: inherit; }
