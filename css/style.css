@@ -3,15 +3,15 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   padding: 0;
   border: 0;
   vertical-align: baseline; }
-  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #0;
+  color: #fff;
 }
 html{
-  background-color:#0a0a2e;
+  background-color:#0a0a23;
   color: white;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -22,7 +22,7 @@ h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; margin-top: 10px; f
 h5 { font-size: 18px; line-height: 24px; font-family: 'Hack', monospace;}
 h6 { font-size: 18px; line-height: 21px; font-family: 'Hack', monospace;}
 
-a, a:visited { color:#d4d4da;
+a, a:visited { color:#d0d0d5;
   text-decoration: underline;
   outline: 0;
   font-size: inherit;
@@ -31,7 +31,7 @@ a:hover, a:focus { color: white; text-decoration: none;}
 p a, p a:visited { line-height: inherit; }
 
 p{
-  color:#d4d4da;
+  color:#d0d0d5;
   font-size: 20px;
   font-weight: 300;
   margin: 0 0 20px 0;
@@ -81,7 +81,7 @@ nav ul li a,
 nav ul li a:visited,
 nav ul li a:active {
   font-size: 20px;
-  color: #d4d4da;
+  color: #d0d0d5;
   text-decoration: none;
   font-weight: bold;
 }
@@ -178,13 +178,13 @@ nav ul li a:focus {
 
 
 .primary-color{background-color: #FFFFFF;}
-.secondary-color{background-color:#f5f6f7;}
-.tertiary-color{background-color:#e8e8eb;}
-.quaternary-color{background-color:#d4d4da;}
-.quaternary-background{background-color:#323251;}
-.tertiary-background{background-color:#292948;}
-.secondary-background{background-color:#1e2040;}
-.primary-background{background-color:#0a0a2e;  border: 1px solid white;}
+.secondary-color{background-color:#eeeef0;}
+.tertiary-color{background-color:#dfdfe2;}
+.quaternary-color{background-color:#d0d0d5;}
+.quaternary-background{background-color:#3b3b4f;}
+.tertiary-background{background-color:#2a2a40;}
+.secondary-background{background-color:#1b1b32;}
+.primary-background{background-color:#0a0a23;  border: 1px solid white;}
 
 .border{
   border: 1px solid white;
