@@ -229,7 +229,6 @@ ul ul ul li {
 .container .sixteen.columns {
   width: 940px;
 }
-
 .container .one-third.column {
   width: 300px;
 }
@@ -312,7 +311,6 @@ ul ul ul li {
     margin-left: 0;
     margin-right: 0;
   }
-
   .container .one.column,
   .container .one.columns {
     width: 28px;
@@ -362,7 +360,6 @@ ul ul ul li {
   .container .sixteen.columns {
     width: 748px;
   }
-
   .container .one-third.column {
     width: 236px;
   }
