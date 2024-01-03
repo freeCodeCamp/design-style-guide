@@ -24,7 +24,6 @@ h6 { font-size: 18px; line-height: 21px; font-family: 'Hack', monospace;}
 
 a, a:visited { color:#d0d0d5;
   text-decoration: underline;
-  outline: 0;
   font-size: inherit;
 }
 a:hover, a:focus { color: white; text-decoration: none;}
@@ -196,4 +195,9 @@ nav ul li a:focus {
   border-radius: 100px;
   margin: auto;
   margin-top: 10px;
+}
+
+*:focus-visible {
+  outline: 3px solid #198eee;
+  outline-offset: 0;
 }
